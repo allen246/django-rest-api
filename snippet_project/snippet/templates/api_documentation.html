@@ -1,0 +1,10 @@
+
+{% extends "rest_framework_swagger/index.html" %}
+
+{% block content %}
+  <h1>API Documentation</h1>
+  <ul>
+    <li><a href="{% url 'schema-swagger-ui' %}">API Documentation</a></li>
+    <!-- Add more API endpoints here -->
+  </ul>
+{% endblock %}
